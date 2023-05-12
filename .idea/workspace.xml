@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7787de9-bd27-4ad9-92fd-251f1d04a074" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="c7787de9-bd27-4ad9-92fd-251f1d04a074" name="Changes" comment="hello">
+      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +38,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/MyDocuments/iviettech LtVCN PR48/SpringFramework/springConfiguration/src/main/resources",
+    "last_opened_file_path": "E:/MyDocuments/iviettech LtVCN PR48/SpringFramework/springConfiguration/src/main/resources/lifeCircle",
     "onboarding.tips.debug.path": "E:/MyDocuments/iviettech LtVCN PR48/SpringFramework/springConfiguration/src/main/java/org/example/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyDocuments\iviettech LtVCN PR48\SpringFramework\springConfiguration\src\main\resources\lifeCircle" />
       <recent name="E:\MyDocuments\iviettech LtVCN PR48\SpringFramework\springConfiguration\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -54,13 +52,39 @@
       <recent name="annotationbasedconfiguration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <option name="MAIN_CLASS_NAME" value="beanlifecycle.Main" />
       <module name="springConfiguration" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="beanlifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="autowire.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="autowire.Main" />
+      <module name="springConfiguration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autowire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beanscopes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanscopes.Main" />
+      <module name="springConfiguration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beanscopes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,25 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xmlbaseconfiguration.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xmlbaseconfiguration.Main" />
-      <module name="springConfiguration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xmlbaseconfiguration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.beanscopes.Main" />
+        <item itemvalue="Application.autowire.Main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.javabasedconfiguration.Main" />
-        <item itemvalue="Application.xmlbaseconfiguration.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +137,25 @@
       <option name="presentableId" value="Default" />
       <updated>1683718718489</updated>
     </task>
+    <task id="LOCAL-00001" summary="hello">
+      <created>1683886553433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683886553433</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hello">
+      <created>1683886640173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683886640173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
 </project>
